@@ -1,0 +1,247 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+
+/* css for navbar */
+.navs{
+  position: relative;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0.9rem;
+  text-align: center;
+  padding: 0;
+
+}
+
+.navbar{
+  color: rgb(49, 83, 49);
+  margin-right: 1rem;
+}
+
+.navbar button{
+  padding: 17px;
+  border: none;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+}
+
+.posts{
+  font-weight: 550;
+  font-size: 1rem;
+  color:rgb(49, 83, 49) ;
+  background-color: white;
+  width: 7.9rem;
+}
+
+.post{
+  background-color: rgb(49, 83, 49);
+  color: white;
+  font-weight: 550;
+  font-size: 1rem;
+  width: 7.9rem;
+}
+
+button:hover{
+  color: white;
+  background-color: rgb(49, 83, 49);
+}
+
+/* css for home */
+.main{
+  margin-top:17px;
+  background-color: #eff9ef;
+  width: 1300px;
+  height: 554px;
+  position: relative;
+}
+
+.main h1{
+  position: absolute;
+  top: 2.9rem;
+  left:2.5rem ;
+  font-weight: 1500;
+  font-size: 2.5rem;
+  justify-content: center;
+  text-align: justify;
+  align-items: center;
+}
+
+.main p{
+  position: absolute;
+  top: 13rem;
+  left: 2.5rem;
+  color: rgb(55, 53, 53);
+  justify-content: center;
+  text-align: justify;
+  font-size: 0.9rem;
+}
+
+.search input{
+  position: absolute;
+  left: 2.5rem;
+  top:18.5rem ;
+  padding: 10px;
+  height: 2.5rem;
+  width: 19rem;
+  border-radius: 0.8rem;
+  border: none;
+}
+
+.search button{
+  position: absolute;
+  left: 18rem;
+  top: 18.5rem;
+  padding: 10px;
+  height: 2.5rem;
+  width:6.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  background-color:  rgb(48, 96, 48);
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.images{
+  position: absolute;
+  top: 0.5rem;
+  left: 850px;
+  
+ 
+
+}
+
+.images img{
+  margin-right: 30px;
+   border: none;
+  height: 500px;
+  width: 380px;
+}
+
+/* css for popular categories */
+
+.categories{
+  margin-top: 1.3rem;
+  position: relative;
+  width: 1300px;
+  height: 500px;
+  background-color:#F0F8FF ;
+}
+
+.pop{
+  font-size: 25px;
+  text-align: center; 
+  padding-top: 30px;
+}
+
+.log{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex: 1;
+  text-align: justify;
+}
+
+/* css for popular list job */
+
+.lists{
+  height: 15px;
+  width: 1300px;
+  background-color: rgb(255, 255, 249);
+  margin-top: 1.3rem;
+}
+
+.list{
+  position: relative;
+  border: 1px solid grey;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top:50px ;
+  width: 1210px;
+  height: 130px; 
+  border-radius: 1rem;
+  box-shadow:0.5px 1.5px #b9beb9;
+}
+
+.pops{
+  font-size: 13px;
+}
+
+.pop-list{
+  padding-top: 50px;
+  position: relative;
+  display: block;
+}
+.circle{
+  position: absolute;
+  left: 0;
+  top: 25px;
+  margin-left:2.8rem;
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 35px;
+  background: #fff;
+  border: none;
+  background-color:rgb(48, 96, 48) ;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.circle p{
+  color: white;
+  font-size: 35px;
+  font-weight: 600; 
+}
+
+.desc{
+  position: absolute;
+  left: 160px;
+  top:20px;
+  text-align: justify;
+}
+.para{
+  font-size: 14px;
+  color: #767976;
+  padding-bottom: 3px;
+}
+.tit-desc{
+  font-size: 22px;
+  color: black;
+}
+
+.location{
+  display: flex;
+  font-size: 13px;
+  text-align: justify;
+}
+
+
+.location span{
+  padding-right: 4px;
+  color: rgb(65, 64, 64);
+}
+
+.btn-view{
+  position: absolute;
+  left: 1010px;
+  top: 41px;
+}
+
+.btn-view button{
+  color: white;
+  background-color: rgb(48, 96, 48) ;
+  padding: 15px 30px;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+
+}
