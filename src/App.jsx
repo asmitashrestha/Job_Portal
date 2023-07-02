@@ -1,10 +1,11 @@
 import "./App.css";
-import Categories from "./components/Categories";
-import Home from "./components/Home";
-import Listedjob from "./components/Listedjob";
-import Navbar from "./components/Navbar";
-import Jobstitle from "./components/Jobstitle";
-import View from "./components/View";
+import Categories from "./components/Home/Categories";
+import Home from "./components/Home/Home";
+import Listedjob from "./components/Home/Listedjob";
+import Navbar from "./components/Home/Navbar";
+import Jobstitle from "./components/Home/Jobstitle";
+import View from "./components/Home/View";
+
 
 function App() {
   return (
@@ -45,7 +46,6 @@ function App() {
           />
         </div>
       </div>
-
       <View/>
     </div>
   );
