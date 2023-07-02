@@ -156,12 +156,17 @@ button:hover{
   margin-top: 1.3rem;
 }
 
+.listed{
+  margin-top:40px ;
+  background-color: rgb(255, 255, 249);
+}
+
 .list{
   position: relative;
   border: 1px solid grey;
   margin-left: 20px;
   margin-right: 20px;
-  margin-top:50px ;
+  margin-top:22px ;
   width: 1210px;
   height: 130px; 
   border-radius: 1rem;
@@ -243,5 +248,40 @@ button:hover{
   font-size: 16px;
   border: none;
   border-radius: 10px;
+}
 
+.view{
+  margin-top: 1.4rem;
+  position: relative;
+  height:100px;
+  background-color:rgb(255, 255, 249);
+  margin-bottom: 1.4rem;
+}
+
+.view button{
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background-color:  rgb(48, 96, 48);
+  padding: 16px 45px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+.arrow{
+  position: absolute;
+  top: 12px;
+  padding-left: 2px;
+  border-radius: 50%;
+  width:24px;
+  height: 24px;
+  margin-left: 80px;
+  background-color:rgb(48, 96, 48) ;
+  border:1px solid #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }

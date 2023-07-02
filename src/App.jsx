@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Listedjob from "./components/Listedjob";
 import Navbar from "./components/Navbar";
 import Jobstitle from "./components/Jobstitle";
+import View from "./components/View";
 
 function App() {
   return (
@@ -44,6 +45,8 @@ function App() {
           />
         </div>
       </div>
+
+      <View/>
     </div>
   );
 }

@@ -27,6 +27,7 @@ const Jobstitle = ({ para, title }) => {
 
       <div className="btn-view">
         <button>View Details</button>
+        
       </div>
     </div>
   );
