@@ -1,14 +1,17 @@
-
+import OpenWithIcon from "@mui/icons-material/OpenWith";
 const CategoryItem = ({ value }) => {
-    return (
-      <>
+  return (
+    <>
       <div className="logo">
-        <h3 className="log">{ value }</h3>
+        <div className="openicon">
+          <OpenWithIcon style={{fontSize:"16px"}}/>
+        </div>
+        <div className="log">
+          <p>{value}</p>
+        </div>
       </div>
-      </>
-      
-    )
-  }
-  
-  export default CategoryItem
-  
+    </>
+  );
+};
+
+export default CategoryItem;

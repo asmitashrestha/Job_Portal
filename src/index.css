@@ -5,7 +5,7 @@
   font-family: 'Poppins',sans-serif;
 }
 
-/* css for navbar */
+/* css for navbar components*/
 .navs{
   position: relative;
   background-color: white;
@@ -50,7 +50,7 @@ button:hover{
   background-color: rgb(49, 83, 49);
 }
 
-/* css for home */
+/* css for home components*/
 .main{
   margin-top:17px;
   background-color: #eff9ef;
@@ -110,9 +110,6 @@ button:hover{
   position: absolute;
   top: 0.5rem;
   left: 850px;
-  
- 
-
 }
 
 .images img{
@@ -122,13 +119,13 @@ button:hover{
   width: 380px;
 }
 
-/* css for popular categories */
+/* css for popular categories and categories item*/
 
 .categories{
   margin-top: 1.3rem;
   position: relative;
   width: 1300px;
-  height: 500px;
+  height: 80px;
   background-color:#F0F8FF ;
 }
 
@@ -138,16 +135,59 @@ button:hover{
   padding-top: 30px;
 }
 
-.log{
+.cat{
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  position: relative;
+  background-color: #F0F8FF;
+  width: 1300px;
+  height: 380px;
   flex-wrap: wrap;
-  flex: 1;
-  text-align: justify;
+  padding-bottom: 240px;
 }
 
-/* css for popular list job */
+.logo{
+  margin-top: 1.5rem;
+  margin-left: 40px;
+  position: relative;
+  display: flex;
+  top: 0;
+  left: 6px;
+  width: 130px;
+  height: 130px;
+  border: 1px solid rgb(248, 241, 241);
+  background-color: #fff;
+  margin-right: 40px;
+}
+
+.openicon{
+  position: absolute;
+  top: 30px;
+  padding: 22px;
+  border-radius: 50%;
+  width:24px;
+  height: 24px;
+  margin-left:17px;
+  background-color:rgb(180, 184, 180) ;
+  border:1px solid #fff;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.log{
+  position: absolute;
+  top: 80px;
+  left: 27px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+/* css for popular list job title and job list */
 
 .lists{
   height: 15px;
@@ -250,18 +290,19 @@ button:hover{
   border-radius: 10px;
 }
 
+
+/* css for view components */
 .view{
-  margin-top: 1.4rem;
+  margin-top: 1.8rem;
   position: relative;
-  height:100px;
-  background-color:rgb(255, 255, 249);
-  margin-bottom: 1.4rem;
+  height:75px;
+  width: 1300px;
+  background-color:rgb(255, 255, 248);
 }
 
 .view button{
   position: absolute;
-  justify-content: center;
-  align-items: center;
+  left: 530px;
   background-color:  rgb(48, 96, 48);
   padding: 16px 45px;
   color: #fff;
@@ -284,4 +325,24 @@ button:hover{
   display: flex;
   align-items: center;
   text-align: center;
+}
+
+/* css for footer components */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  height: 71px;
+  width: 1300px;
+  background-color:rgb(48, 96, 48) ;
+  color: #fff;
+}
+
+
+.footer p{
+  padding-left: 4px;
+  color: #fff;
+  font-style: 17px;
 }
