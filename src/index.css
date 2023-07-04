@@ -346,3 +346,56 @@ button:hover{
   color: #fff;
   font-style: 17px;
 }
+
+
+/* Postajob -folder ko title file ko lagi css */
+
+.tits{
+  margin:1.6rem 0rem;
+  background-color: #E6E6FA;
+  width: 1500px;
+  height: 90px;
+  position: relative;
+}
+
+.tits h1{
+  font-size: 22px;
+  font-family:'Poppins', sans-serif;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: absolute;
+  left: 340px;
+  top: 1.9rem;
+}
+
+/* css for jobview  */
+.apply-job{
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.btn-job{
+  display: flex;
+ 
+}
+
+.btn-job button{
+  position: relative;
+  left:500px;
+  margin-right: 1.7rem;
+  padding:12px 20px;
+  font-size: 12px;
+  border:0.5px solid none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.qua-req{
+  margin-left: 3.5rem;
+  justify-content: center;
+  text-align: justify;
+}
+
