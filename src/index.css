@@ -373,19 +373,19 @@ button:hover{
 .apply-job{
   margin-top: 1rem;
   margin-bottom: 2rem;
+  position: relative;
 }
 
 .btn-job{
   display: flex;
- 
 }
 
 .btn-job button{
   position: relative;
   left:500px;
   margin-right: 1.7rem;
-  padding:12px 20px;
-  font-size: 12px;
+  padding:15px 22px;
+  font-size: 13px;
   border:0.5px solid none;
   border-radius: 10px;
   justify-content: center;
@@ -399,3 +399,144 @@ button:hover{
   text-align: justify;
 }
 
+.job-desc{
+  margin-top: 2rem;
+}
+
+.job-desc h2{
+  position:absolute;
+  left: 3.5rem;
+  top: 15rem;
+}
+
+.job-desc p{
+  margin-left: 3.7rem;
+  padding-top: 2rem;
+  text-align: justify;
+  color: #1f211f;
+  font-size: 15px;
+  line-height: 1.7rem;
+}
+
+.dev-req, .dev-res{
+  margin-top: 1.2rem;
+}
+.dev-req h2 , .dev-res h2{
+  position:absolute;
+  left: 3.5rem;
+  font-size: 1.1rem;
+}
+.req-list, .responsibility{
+  padding-top: 2.5rem;
+  position: relative;
+  left: 4.6rem;
+  text-align: justify;
+}
+.req-list ul li, .responsibility ul li{
+ padding: 0.5rem;
+ font-size: 15px;
+ color: #3e403e;
+}/* css for apply page completed */
+
+
+/* css for createjob components */
+
+.create-job {
+  margin-top: 1.5rem;
+}
+.job-h{
+  position: relative;
+  margin-left: 0px;
+  width: 1400px;
+  height: 5rem;
+  background-color: rgb(221, 221, 234);
+  margin-bottom: 2rem;
+  
+}
+.job-h h2{
+  position:absolute;
+  left:33rem;
+  top: 1.5rem;
+  font-style: 15px;
+}
+
+.form-create{
+  border: 0.5px solid rgb(197, 190, 190);
+  border-radius: 10px;
+  padding-block-start: 1.3rem;
+}
+.form-desc{
+  position: relative;
+}
+
+.com-des{
+  display: flex;
+}
+
+.company-des input{
+  position: relative;
+  margin-right: 1rem;
+  margin-left: 1.4rem;
+  width: 560px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0.5px solid rgb(197, 190, 190);
+}
+.company-des h2, .jtype h2, .soption h2, .app-desc h2{
+  margin-bottom: 0.7rem;
+  margin-left: 1.6rem;
+  display: flex;
+  font-size: 17px;
+  font-weight:550;
+}
+
+::placeholder {
+  position: relative;
+  left: 1.5rem;
+}
+
+.jtype{
+  margin-top: 1rem;
+}
+.jtype input, .appdes input{
+  position: relative;
+  margin-right: 1.5rem;
+  margin-left:1.2rem;
+  width: 1165px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0.5px solid rgb(197, 190, 190);
+}
+
+.jcat , .jlocation{
+  display: flex;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.soption select, .jlocation input{
+  position: relative;
+  margin-right: 1rem;
+  margin-left: 1.4rem;
+  width: 560px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0.5px solid rgb(197, 190, 190);
+}
+.jobs-desc {
+  margin-top: 1rem;
+  
+}
+
+.jobs-desc h2{
+  margin-bottom: 0.7rem;
+  margin-left: 1.6rem;
+  display: flex;
+  font-size: 19px;
+  font-weight:bold;
+}
+.jobs-desc textarea{
+  border-radius: 10px;
+  padding: 10px;
+  margin: 1rem;
+}
